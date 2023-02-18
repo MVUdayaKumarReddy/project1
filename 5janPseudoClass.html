@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <link rel="stylesheet" href="5janPseudoClass.css">
+</head>
+<body>
+    <center>
+        <input type="button" value="SUBMIT" id="button">
+        <input type="button" value="SUBMIT" id="button2">
+        <br>
+        <!--to apply css property based on, if user place cursor on elements-->
+        <h1>HOVER PSEUDO CLASS</h1>
+        <!--to apply css property if user click on element-->
+        <div id="d1">
+            <strong style="color: silver; font-size: 30px;">Click Here</strong>
+            <h2>Active Pseudo Class</h2>
+            <!--to apply css property if user focus on element (button/inputbox)-->
+            <form>
+                <input placeholder="Enter UserName" class="inputbox">
+                <br><br>
+                <textarea placeholder="Suggestion" id="ta"></textarea>
+            </form>
+            <!--Pseudo classes related to input box-->
+            <form>
+                <label>Enter First Name</label>
+                <input placeholder="first name" class="fields" required disabled>
+                <br><br>
+                <label>Enter last Name</label>
+                <input placeholder="last name" class="fields" required>
+                <br><br>
+                <label>Enter Mobile</label>
+                <input placeholder="Mobile" class="fields" required>
+                <br><br>
+                <label>Enter Email</label>
+                <input placeholder="Email" class="fields" required>
+                <br><br>
+                <label>Enter Date</label>
+                <input type="date" class="fields" disabled>
+                <br><br>
+                <input type="submit">
+            </form>
+        </div>
+    </center>
+</body>
+</html>
